@@ -3,7 +3,7 @@
 
  ## Idealizando o RPG
  Olá pessoal, tudo bem? Realizei esse projeto incialmente como uma atividade em Java da disciplina de Programação I. Então aproveitei que estou estudando as linguagens Python e C e fiz também.
- O objetivo do projeto é criar um jogo RPG que o personagem luta contra um dragão que seu ataque é rajada de vento com seguintes requisitos:
+ O objetivo do projeto é criar um jogo RPG que o personagem luta contra um dragão que seu ataque é rajada de fogo com seguintes requisitos:
  - Você tem 50 pontos de vida;
 - Você está lutando contra um dragão que tem 50 pontos de vida;
 - Você deve ter três ataques disponíveis, cada um com uma força de 5, 10 e 15 pontos de vida;
