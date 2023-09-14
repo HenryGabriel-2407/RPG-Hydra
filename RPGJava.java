@@ -9,7 +9,7 @@ public  class RPGJava{
         int vidaHydra = 50;
         int defesaHydra = 10;
         int ataqueHydra = 10;
-        int limiteDefesa = 0;
+        int limiteDefesa = 5;
         //Criar uma funcao Random e Scanner e exibir a funcao historia 
         Random pato = new Random();
         Scanner ler = new Scanner(System.in);
@@ -22,11 +22,10 @@ public  class RPGJava{
             System.out.println(ataqueApollo);
             if (escolha == 4 && limiteDefesa <= 5) {
                 vidaApollo += defesaApollo;
-                System.out.println("Com a defesa, o Apollo ganha 13 pontos de vida. Mas pode usar 5 vezes.");
-                limiteDefesa++;
-                continue;
+                System.out.println("Com a defesa, o Apollo ganha 13 pontos de vida. Mas pode usar " + limiteDefesa + " vezes.");
+                limiteDefesa--;
             }
-            if (escolha == 4 && limiteDefesa > 5) {
+            if (escolha == 4 && limiteDefesa < 0) {
                 System.out.println("Está sem defesa, usa ataque!");
                 continue;
             }
