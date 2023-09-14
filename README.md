@@ -24,4 +24,5 @@ Etapas:
 8.  Após disso, o programa verifica se a vida do personagem ou do dragão é menor ou igual a zero para exibir função de vitória ou de derrota, finalizando o programa. Se ambos estiverem com vida, vai ser exibido a vida de ambos, terminando o a estrutura while e o código.
 
 ## Conclusão
-Termina a explicação do funcionamento do projeto de RPG do dragão. Por favor, se estiver algo de errado ou faltando informações importante neste projeto eu peço que comenta para ser mais completo e de melhor qualidade possível. Obrigado pela leitura.
+Termina a explicação do funcionamento do projeto de RPG do dragão. E daqui alguns dias postarei no Youtube a execução do programa.
+Por favor, se estiver algo errado, ou faltando informações importante, ou uma dica para melhorar neste projeto eu peço que comenta para ser mais completo e de melhor qualidade possível. Obrigado pela leitura.
